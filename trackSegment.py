@@ -24,7 +24,7 @@ def Convert_To_2D_UInt8(img):#Converts any image to UInt8 pixel type
 
 if len(sys.argv) != 5:
     print('\nUsage: ' + sys.argv[0] + ' <PathToMovingFolder> <PathToReferenceFolder> <referenceImageName> <segmentationImageName>')
-    print('\nEx: python ' + sys.argv[0] + r" C:\Users\Abdominal_Data\Moving C:\Users\Abdominal_Data\Reference refLung_001.dcm segmentation.mha")
+    print('\nEx: python ' + sys.argv[0] + r" C:\Users\Abdominal_Data\Moving C:\Users\Abdominal_Data\Reference referenceLungScan.dcm segmentationMask.mha")
     sys.exit(1)
 
 #Putting the code inside the Abdominal_Data folder and running should work

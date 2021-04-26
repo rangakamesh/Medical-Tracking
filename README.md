@@ -1,8 +1,8 @@
 # Medical segment tracking
 
-A computer aided intervention tool to track a segment of a scan across multiple moving images.
+A computer-aided intervention tool to track a segment of a scan across multiple moving images.
 
-When it comes to automated medical intervention, making a computer identify and fix a particular probem is not far to be common.
+When it comes to automated medical intervention, making a computer identify and fix a particular problem is not far to be common.
 
 However, the biological organs, have a lot of movement and is to be handled very carefully.
 
@@ -18,7 +18,7 @@ Input required :
 Output :
 - A video of all the moving image arranged in sequence with the area of interest tracked.
 
-The tool was developed with reference to tracking a defective area of human lungs.
+The tool was mainly developed to track a defective area of the human lungs. However, it can also be used to do the same with any other organ.
 The sample data are provided along with. 
 
 Requirements:
