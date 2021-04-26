@@ -26,7 +26,11 @@ Requirements:
 - [pip install opencv-python](https://pypi.org/project/opencv-python/)
 
 How to run:
-- The tool require four inputs -> <PathToMovingFolder> <PathToReferenceFolder> <referenceImageName> <segmentationImageName>
+* The tool require four inputs 
+    1. Path To Moving Folder 
+    2. Path To Reference Folder 
+    3. Reference Image Name 
+    4. Segmentation Image Name
 
 Example:
 - python trackSegment.py 'C:\Users\Desktop\Moving' 'C:\Users\Desktop\Reference' referenceLungScan.dcm segmentationMask.mha
